@@ -1,0 +1,2 @@
+- จงสร้าง dat object สำหรับวันที่ Feb 20, 2012, 3:12am
+- แสดงผลลัพธ์โดยใช้ alert ใน JavaScript
