@@ -2,8 +2,8 @@
 
 ```js
 if (0) {
-  alert("Zero");
+  alert('Zero');
 } else {
-  alert("Nooo");
+  alert('Nooo'); // alert this line
 }
 ```

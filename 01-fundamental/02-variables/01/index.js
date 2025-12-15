@@ -4,5 +4,5 @@
   let name;
   name = 'Earth';
   person = name;
-  alert(person);
+  // alert(person);
 })();
