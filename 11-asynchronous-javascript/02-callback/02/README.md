@@ -1,0 +1,4 @@
+- จงสร้างฟังก์ชัน simulateFetch(url, callback) เพื่อจำลองการโหลดข้อมูลเป็นระยะเวลา 3 วินาที
+- ฟังก์ชัน simulateFetch อาจจะทำงานสำเร็จหรือเกิด error ขึ้นก็ได้ โดยให้จำลองโดยใช้คำสั่ง Math.random หากสุ่มแล้วได้ค่าน้อยกว่า 0.5 ให้ถือว่าเกิด error หากมากกว่าหรือเท่ากับ 0.5 ให้ถือว่าทำงานสำเร็จ
+- ถ้า simulateFetch เกิด error ให้เรียกใช้ฟังก์ชัน callback โดยส่งค่า parameter เป็น Error object ที่มี message เป็น "Error during data fetch"
+- ถ้า simulateFetch ทำงานสำเร็จ ให้เรียกใช้ฟังก์ชัน callback โดยส่งค่า parameter ตัวแรก เป็น null และ parameter ตัวที่สองเป็น `Response from ${url}`
