@@ -2,8 +2,10 @@
 
 ```js
 if (0) {
-  alert("Zero");
+  alert('Zero');
 } else {
-  alert("Nooo");
+  alert('Nooo');
 }
 ```
+
+<!-- result = Nooo ; Boolean(0) = false => if(false) => skip to next block -->

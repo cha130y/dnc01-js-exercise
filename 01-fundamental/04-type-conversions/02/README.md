@@ -5,5 +5,5 @@
 ```js
 let a = undefined;
 let b = null;
-let c = b + "4 2";
+let c = b + '4 2';
 ```

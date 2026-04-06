@@ -7,3 +7,5 @@ while (i) {
   alert(i--);
 }
 ```
+
+<!-- result = 1 -->
