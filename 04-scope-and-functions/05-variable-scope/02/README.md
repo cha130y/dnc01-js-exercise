@@ -3,7 +3,7 @@
 ```js
 function sayHi(name) {
   let name = "Guest";
-  console.log(name); // *
+  console.log(name); // * Uncaught SyntaxError: Identifier 'name' has already been declared
 }
 
 sayHi("Jim");

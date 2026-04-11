@@ -17,26 +17,4 @@
   //   : `${num} is not a prime number`;
   // alert(result);
   // console.log(result);
-  // const isPrimeNumber = (num) => {
-  //   return primeCheck(num);
-  // };
-  // let result = isPrimeNumber(num)
-  //   ? `${num} is a prime number`
-  //   : `${num} is not a prime number`;
-  // alert(result);
-  // console.log(result);
 })();
-
-// function primeCheck(num) {
-//   if (num < 2) return false;
-
-//   let isPrime = true;
-
-//   for (let i = 2; i <= Math.sqrt(num); i++) {
-//     if (num % i === 0) {
-//       isPrime = false;
-//       break;
-//     }
-//   }
-//   return isPrime;
-// }

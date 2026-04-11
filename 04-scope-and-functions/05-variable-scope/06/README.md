@@ -8,5 +8,7 @@ if (true) {
     alert(`${phrase}, ${user}`);
   }
 }
-sayHi(); // *
+sayHi(); // * Hello, John : browsers treat function declarations inside blocks differently from the official ES6 rule — for web compatibility. Browsers hoist the function to the outer scope.
+// the result should be 'ReferenceError: sayHi is not defined' because it function is in block which can not access from outside.
+
 ```

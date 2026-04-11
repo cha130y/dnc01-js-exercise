@@ -7,8 +7,8 @@ function sendTo(from, to) {
   console.log(`From ${from} to ${to}`);
 }
 
-sendTo(sender, "Sarah"); // *
-sendTo(null); // **
+sendTo(sender, "Sarah"); // * From Matt to Sarah : pass parameter
+sendTo(null); // ** From null to undefined : 1st parameter is null => string(null) = 'null' ; 2nd parameter is empty => undefined => string(undefined) = 'undefined'
 ```
 
 ```js
@@ -18,6 +18,6 @@ function sendTo(to, from = "CC") {
   console.log(`From ${from} to ${to}`);
 }
 
-sendTo("Max"); // ***
-sendTo("Ben", "Jay"); // ****
+sendTo("Max"); // *** From CC to Max : JavaScript matches arguments by position 'Max' match with 'to' variable not 'from' variable
+sendTo("Ben", "Jay"); // **** From Jay to Ben
 ```

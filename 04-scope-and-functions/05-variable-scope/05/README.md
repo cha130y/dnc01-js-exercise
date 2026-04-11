@@ -9,5 +9,5 @@ function makeWorker() {
 }
 let name = 'John';
 let work = makeWorker();
-work(); // *
+work(); // * Pete : return function remembers the environment where it was created not where it is called. This rule = Lexical Environment.
 ```
